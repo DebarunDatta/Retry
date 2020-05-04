@@ -1,4 +1,6 @@
-
+body{
+	overflow-x: hidden;
+}
 .navbar{
 	margin-bottom: 0.1vh;
 }
