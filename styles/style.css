@@ -1,5 +1,5 @@
 body{
-	overflow-x:hidden;
+	overflow-x: hidden;
 }
 
 .navbar{
@@ -97,6 +97,9 @@ hr.light-100{
 }
 
 @media (max-width: 992px){
+	.simp{
+		padding-top: 0.5vh;
+	}
 	.fas{
 		font-size: 3.5em;
 		padding: 3%;
@@ -119,6 +122,9 @@ hr.light-100{
 	.display-4{
 		font-size: 3rem;
 	}
+	.simp{
+		padding-top: 0.5vh;
+	}
 	.fas{
 		font-size: 2.5em;
 		padding: 1.8%;
@@ -126,6 +132,13 @@ hr.light-100{
 }
 
 @media (max-width: 576px){
+	.navbar{
+		margin-bottom: 0;
+	}
+	#slides img{
+		width: 100vw;
+		height: 85vh;
+	}
 	.main-text{
 		color: white;
 		position: absolute;
@@ -140,6 +153,9 @@ hr.light-100{
 	}
 	.display-4{
 		font-size: 1.8rem;
+	}
+	.simp{
+		padding-top: 0.5vh;
 	}
 	.fas{
 		font-size: 2em;
